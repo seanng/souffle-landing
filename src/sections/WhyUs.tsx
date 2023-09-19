@@ -6,14 +6,13 @@ export function WhyUs() {
   return (
     <div className="mt-24 rounded-4xl bg-neutral-950 py-24 sm:mt-32 lg:mt-40 lg:py-32">
       <SectionIntro
-        title="Transform Your Brand From Ordinary to Extraordinary"
+        title="Transform your brand from Ordinary to Extraordinary"
         eyebrow="Why chatbots?"
-        // title="Balance your passion with your passion for life."
         invert
       >
-        {/* <p>
+        <p>
           We are a group of like-minded people who share the same core values.
-        </p> */}
+        </p>
       </SectionIntro>
       <Container className="mt-16">
         <GridList>

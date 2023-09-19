@@ -9,6 +9,9 @@
     "lint": "next lint"
   },
   "browserslist": "defaults, not ie <= 11",
+  "engines": {
+    "node": ">=19.3.0"
+  },
   "dependencies": {
     "@heroicons/react": "^2.0.18",
     "@leafac/rehype-shiki": "^2.2.1",
@@ -30,6 +33,7 @@
     "next": "13.4.16",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-hook-form": "^7.46.1",
     "recma-import-images": "0.0.3",
     "remark-gfm": "^3.0.1",
     "remark-rehype-wrap": "0.0.3",
