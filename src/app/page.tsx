@@ -18,8 +18,6 @@ import logoUnseal from '@/images/clients/unseal/logo-light.svg'
 import imageLaptop from '@/images/laptop.jpg'
 import { type CaseStudy, type MDXEntry, loadCaseStudies } from '@/lib/mdx'
 import { PageIntro } from '@/components/PageIntro'
-import { Cover } from '@/sections/Cover'
-import { WhyUs } from '@/sections/WhyUs'
 import { Button } from '@/components/Button'
 import { useId } from 'react'
 import { Offices } from '@/components/Offices'
@@ -31,9 +29,8 @@ import {
   PhoneIcon,
 } from '@heroicons/react/24/outline'
 import { ContactInfo } from '@/components/ContactInfo'
-import { FormInputField } from '@/components/FormInputField'
-import { FormTextAreaField } from '@/components/FormTextAreaField'
-import { Contact } from '@/sections/Contact'
+import { GridList, GridListItem } from '@/components/GridList'
+import { ContactForm } from '@/components/ContactForm'
 
 function CaseStudies({
   caseStudies,
@@ -189,39 +186,39 @@ function TextInput({
   )
 }
 
-function ContactForm() {
-  return (
-    <FadeIn className="lg:order-last">
-      <form>
-        <div className="isolate mt-6 -space-y-px rounded-2xl bg-white/50">
-          <TextInput label="Name" name="name" autoComplete="name" />
-          <TextInput
-            label="Email"
-            type="email"
-            name="email"
-            autoComplete="email"
-          />
-          <TextInput
-            label="Company (optional)"
-            name="company"
-            autoComplete="organization"
-          />
-          <TextInput
-            label="Phone (optional)"
-            type="tel"
-            name="phone"
-            autoComplete="tel"
-          />
-          {/* make it text area */}
-          <TextInput label="Message" name="message" />
-        </div>
-        <Button type="submit" className="mt-10">
-          Let’s work together
-        </Button>
-      </form>
-    </FadeIn>
-  )
-}
+// function ContactForm() {
+//   return (
+//     <FadeIn className="lg:order-last">
+//       <form>
+//         <div className="isolate mt-6 -space-y-px rounded-2xl bg-white/50">
+//           <TextInput label="Name" name="name" autoComplete="name" />
+//           <TextInput
+//             label="Email"
+//             type="email"
+//             name="email"
+//             autoComplete="email"
+//           />
+//           <TextInput
+//             label="Company (optional)"
+//             name="company"
+//             autoComplete="organization"
+//           />
+//           <TextInput
+//             label="Phone (optional)"
+//             type="tel"
+//             name="phone"
+//             autoComplete="tel"
+//           />
+//           {/* make it text area */}
+//           <TextInput label="Message" name="message" />
+//         </div>
+//         <Button type="submit" className="mt-10">
+//           Let’s work together
+//         </Button>
+//       </form>
+//     </FadeIn>
+//   )
+// }
 
 function ContactDetails() {
   return (
@@ -258,6 +255,91 @@ function ContactDetails() {
         </h2>
         <SocialMedia className="mt-6" />
       </Border>
+    </FadeIn>
+  )
+}
+
+function Cover() {
+  return (
+    <Container className="mt-24 sm:mt-32 md:mt-56">
+      <FadeIn className="max-w-3xl">
+        <h1 className="font-display text-5xl font-medium tracking-tight text-neutral-950 [text-wrap:balance] sm:text-7xl">
+          Is your business ready for the future?
+          {/* Human-like chatbots for your business. */}
+        </h1>
+        <p className="mt-6 text-xl text-neutral-600">
+          Create a <strong>lasting impression</strong> and experience{' '}
+          <strong>explosive sales growth</strong> with personalized{' '}
+          <strong>human-like chatbots </strong>
+          for your business.
+        </p>
+      </FadeIn>
+    </Container>
+  )
+}
+
+function WhyUs() {
+  return (
+    <div className="mt-24 rounded-4xl bg-neutral-950 py-24 sm:mt-32 lg:mt-40 lg:py-32">
+      <SectionIntro
+        title="Transform your Brand from Ordinary to Extraordinary"
+        eyebrow="How can a chatbot help your business?"
+        invert
+      >
+        {/* <p>
+          We are a group of like-minded people who share the same core values.
+        </p> */}
+      </SectionIntro>
+      <Container className="mt-16">
+        <GridList>
+          <GridListItem title="Steal the Spotlight" invert>
+            <p>
+              Impress visitors, customers and business partners with a highly
+              conversational chatbot that can answer any question related to
+              your business at any time.
+            </p>
+          </GridListItem>
+          <GridListItem title="Instant 24/7 Customer Support" invert>
+            <p>
+              Tired of answering the same questions over and over again? Let a
+              chatbot handle it for you. It can answer at any time in any
+              language. It might even do a better job than you can!
+            </p>
+          </GridListItem>
+          <GridListItem title="Convert Visitors Into Customers" invert>
+            <p>
+              Don&apos;t let your website visitors slip away! Keep your audience
+              hooked and browsing by immediately providing them with any
+              information they are seeking.
+            </p>
+          </GridListItem>
+        </GridList>
+      </Container>
+    </div>
+  )
+}
+
+function Contact() {
+  return (
+    <FadeIn>
+      <div className="relative isolate bg-white">
+        <div className="mx-auto grid max-w-7xl grid-cols-1 lg:grid-cols-2">
+          <div className="relative px-6 pt-24 sm:pt-32 lg:static lg:px-8 lg:py-48">
+            <div className="mx-auto max-w-xl lg:mx-0 lg:max-w-lg">
+              <h1>
+                <span className="mt-6 block max-w-5xl font-display text-5xl font-medium tracking-tight text-neutral-950 [text-wrap:balance] sm:text-6xl">
+                  Let’s work together
+                </span>
+              </h1>
+              <p className="my-6 text-lg leading-8 text-gray-600">
+                Fill out the form or email us at hello@chatsouffle.com and we’ll
+                get back to you ASAP.
+              </p>
+            </div>
+          </div>
+          <ContactForm />
+        </div>
+      </div>
     </FadeIn>
   )
 }

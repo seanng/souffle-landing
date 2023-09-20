@@ -6,7 +6,7 @@ type Props = {
   textareaProps: UseFormRegisterReturn<string>
 } & React.ComponentPropsWithoutRef<'div'>
 
-export const FormTextAreaField = ({
+export const ContactFormTextAreaField = ({
   label,
   rows,
   textareaProps,

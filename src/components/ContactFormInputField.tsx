@@ -6,7 +6,7 @@ type Props = {
   inputProps: UseFormRegisterReturn<string>
 } & React.ComponentPropsWithoutRef<'div'>
 
-export const FormInputField = ({
+export const ContactFormInputField = ({
   label,
   autoComplete,
   inputProps,
