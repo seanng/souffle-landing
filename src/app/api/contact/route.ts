@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server'
 import { ServerClient } from 'postmark'
 
-const client = new ServerClient('d0d4dd34-aa29-4d4a-aa36-b6be3f7e2bfe')
+const client = new ServerClient(process.env.POSTMARK_API_KEY ?? '')
 
 export async function POST(request: Request) {
   const payload = await request.json()
