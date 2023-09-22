@@ -13,6 +13,7 @@ import { StylizedImage } from '@/components/StylizedImage'
 import imageLaptop from '@/images/laptop.jpg'
 import { type CaseStudy, type MDXEntry } from '@/lib/mdx'
 import { Process } from '@/components/Process'
+import { FAQs } from '@/components/FAQs'
 
 function Services() {
   return (
@@ -78,6 +79,7 @@ export default async function Home() {
       <WhyUs />
       <Process />
       <Contact />
+      <FAQs />
 
       {/* <CaseStudies caseStudies={caseStudies} /> */}
       {/* 
