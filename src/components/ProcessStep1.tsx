@@ -4,7 +4,7 @@ import { ProcessSection } from '@/components/ProcessSection'
 
 export function ProcessStep1() {
   return (
-    <ProcessSection title="Planning" image={{ src: imageWhiteboard }}>
+    <ProcessSection title="Plan" image={{ src: imageWhiteboard }}>
       <div className="space-y-6 text-base text-neutral-600">
         <p>
           There is no one-size-fits-all chatbot solution. Every business, with

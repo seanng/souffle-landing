@@ -7,49 +7,36 @@ export function ProcessStep3() {
     <ProcessSection title="Deliver" image={{ src: imageMeeting, shape: 2 }}>
       <div className="space-y-6 text-base text-neutral-600">
         <p>
-          About halfway through the Build phase, we push each project out by 6
-          weeks due to a change in{' '}
-          <strong className="font-semibold text-neutral-950">
-            requirements
-          </strong>
-          . This allows us to increase the budget a final time before launch.
+          The creation of your chatbot marks a significant milestone, but its
+          real value is realized only after it has been deployed and integrated
+          with your website, so it feels like a natural extension of your
+          digital ecosystem, rather than an add-on. This seamless integration
+          means your visitors can immediately benefit from the chatbot’s
+          capabilities without any jarring changes to their user experience.
         </p>
+
         <p>
-          Despite largely using pre-built components, most of the{' '}
-          <strong className="font-semibold text-neutral-950">progress</strong>{' '}
-          on each project takes place in the final 24 hours. The development
-          time allocated to each client is actually spent making augmented
-          reality demos that go viral on Twitter.
-        </p>
-        <p>
-          We ensure that the main pages of the site are{' '}
-          <strong className="font-semibold text-neutral-950">
-            fully functional
-          </strong>{' '}
-          at launch — the auxiliary pages will, of course, be lorem ipusm shells
-          which get updated as part of our exorbitant{' '}
-          <strong className="font-semibold text-neutral-950">
-            maintenance
-          </strong>{' '}
-          retainer.
+          But our work doesn’t end there. We want to ensure your chatbot
+          delivers an unparalleled user experience and drives tangible results
+          for your business. We’re committed to standing by you and offering
+          unwavering support.
         </p>
       </div>
 
       <h3 className="mt-12 font-display text-base font-semibold text-neutral-950">
-        Included in this phase
+        Our services after delivery
       </h3>
       <List className="mt-8">
-        <ListItem title="Testing">
-          Our projects always have 100% test coverage, which would be impressive
-          if our tests weren’t as porous as a sieve.
+        <ListItem title="Launch & Monitoring">
+          As your chatbot begins its interactions, we’re right there, analyzing
+          its performance, making necessary adjustments, and identifying areas
+          for refinements.
         </ListItem>
-        <ListItem title="Infrastructure">
-          To ensure reliability we only use the best Digital Ocean droplets that
-          $4 a month can buy.
-        </ListItem>
-        <ListItem title="Support">
-          Because we hold the API keys for every critical service your business
-          uses, you can expect a lifetime of support, and invoices, from us.
+        <ListItem title="Optimization">
+          As feedback streams in and technology progresses, we fine-tune,
+          ensuring your chatbot consistently delivers an unparalleled user
+          experience and remains at the cutting edge of AI-driven customer
+          engagement.
         </ListItem>
       </List>
     </ProcessSection>
