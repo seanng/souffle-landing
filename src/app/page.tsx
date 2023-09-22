@@ -76,7 +76,7 @@ export default async function Home() {
     <>
       <Cover />
       <WhyUs />
-      {/* <Process /> */}
+      <Process />
       <Contact />
 
       {/* <CaseStudies caseStudies={caseStudies} /> */}
