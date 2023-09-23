@@ -1,10 +1,10 @@
 import { TagList, TagListItem } from '@/components/TagList'
-import imageWhiteboard from '@/images/whiteboard.jpg'
+import imagPlan from '@/images/plan.jpg'
 import { ProcessSection } from '@/components/ProcessSection'
 
 export function ProcessStep1() {
   return (
-    <ProcessSection title="Plan" image={{ src: imageWhiteboard }}>
+    <ProcessSection title="Plan" image={{ src: imagPlan }}>
       <div className="space-y-6 text-base text-neutral-600">
         <p>
           There is no one-size-fits-all chatbot solution. Every business, with

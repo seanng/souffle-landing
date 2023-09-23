@@ -1,10 +1,10 @@
 import { Blockquote } from '@/components/Blockquote'
 import { ProcessSection } from '@/components/ProcessSection'
-import imageLaptop from '@/images/laptop.jpg'
+import imageDevelop from '@/images/develop.jpg'
 
 export function ProcessStep2() {
   return (
-    <ProcessSection title="Build" image={{ src: imageLaptop, shape: 1 }}>
+    <ProcessSection title="Build" image={{ src: imageDevelop, shape: 1 }}>
       <div className="space-y-6 text-base text-neutral-600">
         <p>
           Crafting a successful AI chatbot is akin to sculpting a masterpiece—it

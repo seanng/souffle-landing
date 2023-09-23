@@ -1,10 +1,10 @@
 import { ProcessSection } from '@/components/ProcessSection'
 import { List, ListItem } from '@/components/List'
-import imageMeeting from '@/images/meeting.jpg'
+import imageAnalyze from '@/images/analyze.jpg'
 
 export function ProcessStep3() {
   return (
-    <ProcessSection title="Deliver" image={{ src: imageMeeting, shape: 2 }}>
+    <ProcessSection title="Deliver" image={{ src: imageAnalyze, shape: 2 }}>
       <div className="space-y-6 text-base text-neutral-600">
         <p>
           The creation of your chatbot marks a significant milestone, but its

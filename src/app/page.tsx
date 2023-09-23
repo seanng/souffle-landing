@@ -10,7 +10,7 @@ import { List, ListItem } from '@/components/List'
 import { Contact } from '@/components/Contact'
 import { SectionIntro } from '@/components/SectionIntro'
 import { StylizedImage } from '@/components/StylizedImage'
-import imageLaptop from '@/images/laptop.jpg'
+import imageAnalyze from '@/images/analyze.jpg'
 import { type CaseStudy, type MDXEntry } from '@/lib/mdx'
 import { Process } from '@/components/Process'
 import { FAQs } from '@/components/FAQs'
@@ -34,7 +34,7 @@ function Services() {
           <div className="flex justify-center lg:w-1/2 lg:justify-end lg:pr-12">
             <FadeIn className="w-[33.75rem] flex-none lg:w-[45rem]">
               <StylizedImage
-                src={imageLaptop}
+                src={imageAnalyze}
                 sizes="(min-width: 1024px) 41rem, 31rem"
                 className="justify-center lg:justify-end"
               />
