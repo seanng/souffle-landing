@@ -37,7 +37,7 @@ function paragraph(input: IParagraphOptions) {
   })
 }
 
-function saveDocumentToFile(doc, fileName) {
+function saveDocumentToFile(doc: Document, fileName: string) {
   // Create new instance of Packer for the docx module
   // const packer = new Packer()
   // Create a mime type that will associate the new file with Microsoft Word

@@ -52,6 +52,7 @@
     "unified-conditional": "0.0.2"
   },
   "devDependencies": {
+    "@types/downloadjs": "^1.4.4",
     "eslint": "8.26.0",
     "eslint-config-next": "13.4.16",
     "prettier": "^3.0.1",
