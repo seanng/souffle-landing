@@ -41,7 +41,7 @@ const fillPdfDoc = async () => {
   return pdfBytes
 }
 
-export function DownloadButton() {
+export function DownloadPdfButton() {
   const handleClick = async () => {
     const pdfBytes = await fillPdfDoc()
     download(pdfBytes, 'pdf-lib_form_creation_example.pdf', 'application/pdf')
@@ -53,7 +53,7 @@ export function DownloadButton() {
       className="rounded bg-indigo-600 px-2 py-1 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
       onClick={handleClick}
     >
-      Download
+      Download PDF
     </button>
   )
 }
