@@ -33,8 +33,8 @@ export function WhyUs() {
           <GridListItem title="Convert Visitors Into Customers" invert>
             <p>
               Don&apos;t let your website visitors slip away! Keep your audience
-              hooked and browsing by immediately providing them with any
-              information they are seeking.
+              hooked with a chatbot that engages with them in a conversation and
+              convinces them to buy your products or services.
             </p>
           </GridListItem>
         </GridList>

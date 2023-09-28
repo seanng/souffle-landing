@@ -22,9 +22,7 @@ export function Logo({
     <div {...props}>
       <div className="relative flex h-8 items-center gap-2">
         <Logomark />
-        <span className="mt-1 font-display text-xl font-bold">
-          Chat Souffle
-        </span>
+        <span className="mt-1 font-display text-xl font-bold">ChatSouffle</span>
       </div>
     </div>
   )

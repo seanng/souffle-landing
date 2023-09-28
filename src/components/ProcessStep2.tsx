@@ -16,10 +16,10 @@ export function ProcessStep2() {
           In the{' '}
           <strong className="font-semibold text-neutral-950">Training</strong>{' '}
           phase, we require your assistance in providing us with past data to
-          educate our chatbot so it understands the nuances of your business. We
-          have a team of highly skilled data scientists adept at fine-tuning
-          pre-built language models (LLMs) so our chatbot can respond to user
-          queries with greater accuracy and relevance.
+          educate our chatbot so it understands the nuances of your business.
+          Our team is highly adept at fine-tuning pre-built language models
+          (LLMs) so our chatbot can respond to user queries with greater
+          accuracy and relevance.
         </p>
 
         <p>

@@ -6,8 +6,8 @@ import '@/styles/tailwind.css'
 
 export const metadata: Metadata = {
   title: {
-    template: '%s - Chat Souffle',
-    default: 'Chat Souffle - Your Friendly Chatbot Partner',
+    template: '%s - ChatSouffle',
+    default: 'ChatSouffle - Your Friendly Chatbot Partner',
   },
 }
 
